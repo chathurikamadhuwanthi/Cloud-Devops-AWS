@@ -114,14 +114,6 @@ terraform apply
 
 Terraform creates 8 resources: VPC, Internet Gateway, public and private subnets, route table and association, security group, and an EC2 instance that installs Docker on first boot.
 
-## Screenshots
-
-> Add your screenshots to a `docs/` folder and link them here.
-
-| GitHub Actions (successful run) | Live app (`/visits`) |
-|---|---|
-| ![Pipeline](docs/pipeline.png) | ![Visits](docs/visits.png) |
-
 ## Security Notes
 
 - SSH access is controlled by a security group and key-based login only (no passwords)
